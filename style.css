@@ -3,10 +3,18 @@ body{
     color:#1A0800;
     font-family:"Trebuchet MS";
 }
+/* 
+a{
+    color:#1A0800;
+    text-decoration:none;
+    transition:all ease 0.2s;
+} */
+
 
 nav{
     background-color:#DCD3CE;
     display:flex;
+    flex-direction:row;
     gap:10px;
     padding:10px;
     padding-left:40px;
@@ -25,8 +33,9 @@ p.gallery{
     justify-items:center;
     align-items:center;
     grid-template-columns: 1fr 1fr;
-    padding:140px;
-    gap:80px;
+    padding-top:40px;
+    margin:100px;
+    gap:100px;
 }
 
 /* p.gallery:hover{
@@ -40,7 +49,7 @@ p.loremipsum{
 #gallery img{
     width:520px;
     height:520px;
-    filter:brightness(80%);
+    filter:brightness(85%);
     transition: all ease 0.2s;
 }
 
@@ -55,5 +64,16 @@ p.loremipsum{
     color:#FAF5F5;
     padding:15px;
     border-radius:10px;
-    justify-self:end;
+    float:right;
+}
+
+#story{
+    float:right;
+}
+
+footer img{
+    object-fit:fill;
+    bottom:0;
+    left:0;
+    right:0;
 }

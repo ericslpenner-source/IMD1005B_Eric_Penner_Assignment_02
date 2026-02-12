@@ -10,3 +10,4 @@ Landscapes Image https://pixabay.com/photos/trail-trees-forest-path-woods-572698
 Portraits Image https://pixabay.com/photos/phone-business-person-lifestyle-4060860/ by Thorsten Frenzel
 Architecture Image https://pixabay.com/photos/skyscraper-architecture-city-facade-9226515/ by Pana68
 Pets Image https://pixabay.com/photos/maltese-dog-puppy-small-dog-1123016/ by Pexibear
+Photographer Image https://pixabay.com/photos/camera-photographer-woman-lens-5149838/ by Bruce Emmerling

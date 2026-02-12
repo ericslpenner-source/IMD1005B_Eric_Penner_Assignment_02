@@ -1,4 +1,22 @@
-*{
+body{
     background-color:#FAF5F5;
     font-family:"Trebuchet MS";
+}
+
+p.navbar{
+    background-color:#DCD3CE;
+    display:flex;
+    gap:7px;
+    padding:15px;
+    padding-left:40px;
+    align-items:center;
+    font-size:120%;
+    position:fixed;
+    top:-20px;
+    left:0;
+    right:0;
+}
+
+p.loremipsum{
+    font-size:1000%;
 }

@@ -2,7 +2,7 @@ Eric Penner
 041194774 
 My client is a freelance photographer who takes jobs taking pictures of people, pets, and events/locations for commemoration or staging.
 The site serves as an online portfolio to attract potential clients.
-I did not make any major design changes from Assignment 1, as I felt that simplicity was still the best policy.
+I did not make many major design changes from Assignment 1, as I felt that simplicity was still the best policy. I did change the feedback for the navbar buttons to color + underline instead of scaling, as it draws more visual interest to the buttons.
 I did not use AI at any point in the process of creating this website.
 IMAGE SOURCES:
 Camera Logo https://pixabay.com/illustrations/instagram-logo-black-digital-1349676/ by Rifkie Pratama

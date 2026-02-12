@@ -7,21 +7,28 @@
         <body>
             <nav>
                 <img src="instagram-1349676_1280.webp">
-                <a href="index.html">
+                <a class="navLink" href="index.html">
                     Photography
                 </a>
-                <div id="story">
-                        <a href="our-story.html">
+                <div id="emptyNav">
+                        <!-- empty div to create space -->
+                </div>
+                <div class="rightNav">
+                        <a class="navLink" id="story" href="our-story.html">
                             Our Story
                         </a>
                 </div>
-                <div id="contact">
-                    <a href="contact.html">
+                <div class="rightNav">
+                    <a id="contact" href="contact.html">
                             CONTACT & RATES
                     </a>
                 </div>
             </nav>
             <section id="rates">
+                
+                <h3>
+                    Rates
+                </h3>
                 <table>
                     <thead>
                         <tr>
@@ -41,12 +48,15 @@
                     </tbody>
                 </table>
             </section>
-            <section>
+            <section id="contactForm">
+                <h3>
+                    Contact
+                </h3>
                 <form action="" method="get">
                     <label for="firstName">First Name</label><br>
                     <input type="text" id="firstName" placeholder="..."><br>
                     <label for="lastName">Last Name</label><br>
-                    <input type="text" id="firstName" placeholder="..."><br>
+                    <input type="text" id="lastName" placeholder="..."><br>
                     <label for="userEmail">Email address</label><br>
                     <input type="email" id="userEmail" placeholder="..."><br>
                     <label for="message">Message</label><br>

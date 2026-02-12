@@ -2,6 +2,9 @@ body{
     background-color:#FAF5F5;
     color:#1A0800;
     font-family:"Trebuchet MS";
+    margin:0;
+    bottom:0;
+    top:0;
 }
 /* 
 a{
@@ -16,8 +19,9 @@ nav{
     display:flex;
     flex-direction:row;
     gap:10px;
-    padding:10px;
-    padding-left:40px;
+    padding:20px;
+    padding-left:25px;
+    padding-right:25px;
     align-items:center;
     font-size:120%;
     font-weight:bold;
@@ -35,6 +39,7 @@ nav img{
 
 p.gallery{
     display:grid;
+    box-sizing:border-box;
     justify-items:center;
     align-items:center;
     grid-template-columns: 1fr 1fr;
@@ -42,10 +47,6 @@ p.gallery{
     margin:100px;
     gap:100px;
 }
-
-/* p.gallery:hover{
-    
-} */
 
 p.loremipsum{
     font-size:1000%;
@@ -69,26 +70,74 @@ p.loremipsum{
     color:#FAF5F5;
     padding:15px;
     border-radius:10px;
-    float:right;
+    text-decoration:none;
+    margin:auto;
+    transition:all ease 0.3s;
 }
 
-#story{
-    float:right;
+#contact:hover{
+    background-color: #1A4840;
 }
 
-footer img{
-    object-fit:fill;
+#emptyNav{
+    flex-grow:1;
+}
+
+.navLink{
+    color:#1A0800;
+    text-decoration:none;
+    transition:all ease 0.3s;
+}
+
+.navLink:hover{
+    color:#1A4840;
+    text-decoration:underline;
+}
+
+footer{
+    margin:0;
     bottom:0;
     left:0;
     right:0;
 }
 
-table{
-    position:absolute;
-    top:80px;
+footer img{
+    object-fit:fill;
+    width:100%;
+    margin:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 
-form{
-    position:absolute;
-    top:180px;
+#rates{
+    padding-top:100px;
+}
+
+#rates *{
+    margin:20px
+}
+
+table{
+    background-color:#DCD3CE;
+    padding:10px;
+    border:#1A0800;
+    border-radius:10px;
+    border-spacing:5px;
+}
+
+#contactForm{
+    padding-top:5px;
+    margin:20px;
+}
+
+#photographer{
+    height:auto;
+    width:400px;
+    margin:20px;
+    padding-top:100px;
+}
+
+#aboutUs{
+    margin:20px;
 }

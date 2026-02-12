@@ -1,22 +1,59 @@
 body{
     background-color:#FAF5F5;
+    color:#1A0800;
     font-family:"Trebuchet MS";
 }
 
-p.navbar{
+nav{
     background-color:#DCD3CE;
     display:flex;
-    gap:7px;
-    padding:15px;
+    gap:10px;
+    padding:10px;
     padding-left:40px;
     align-items:center;
     font-size:120%;
+    font-weight:bold;
     position:fixed;
-    top:-20px;
+    top:0;
     left:0;
     right:0;
+    z-index:100;
 }
+
+p.gallery{
+    display:grid;
+    justify-items:center;
+    align-items:center;
+    grid-template-columns: 1fr 1fr;
+    padding:140px;
+    gap:80px;
+}
+
+/* p.gallery:hover{
+    
+} */
 
 p.loremipsum{
     font-size:1000%;
+}
+
+#gallery img{
+    width:520px;
+    height:520px;
+    filter:brightness(80%);
+    transition: all ease 0.2s;
+}
+
+#gallery img:hover{
+    width:540px;
+    height:540px;
+    filter:brightness(100%);
+}
+
+#contact{
+    background-color:#1A0800;
+    color:#FAF5F5;
+    padding:15px;
+    border-radius:10px;
+    justify-self:end;
 }

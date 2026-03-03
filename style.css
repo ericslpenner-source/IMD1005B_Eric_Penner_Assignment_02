@@ -52,7 +52,7 @@ nav img{
     text-decoration:underline;
 }
 
-p.gallery{
+div.gallery{
     display:grid;
     box-sizing:border-box;
     justify-items:center;
@@ -142,7 +142,7 @@ table{
     margin:2%;
 }
 
-@media (max-width:768px)
+/* @media (max-width:768px)
 {
     background-color:blue;
-}
+} */

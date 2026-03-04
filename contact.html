@@ -26,10 +26,9 @@
             </nav>
         </header>
         <section id="rates">
-            
-            <h3>
+            <h1 class="topHeader">
                  Rates
-            </h3>
+            </h1>
             <table>
                 <thead>
                     <tr>
@@ -49,25 +48,26 @@
                 </tbody>
             </table>
         </section>
-        <section id="contactForm">
-            <h3>
+        <section id="contactFormSection">
+            <h1>
                 Contact
-            </h3>
-            <form action="" method="get">
+            </h1>
+            <form name="contactForm" action="" method="get">
                 <label for="firstName">First Name</label><br>
-                <input type="text" id="firstName" placeholder="..."><br>
+                <input type="text" id="firstName" name="firstName" placeholder="..."><br>
                 <label for="lastName">Last Name</label><br>
-                <input type="text" id="lastName" placeholder="..."><br>
+                <input type="text" id="lastName" name="lastName" placeholder="..."><br>
                 <label for="userEmail">Email address</label><br>
-                <input type="email" id="userEmail" placeholder="..."><br>
+                <input type="email" id="userEmail" name="userEmail" placeholder="..."><br>
                 <label for="message">Message</label><br>
-                <textarea id="message" rows="10" cols="60"></textarea><br><br>
-                <button type="submit">Submit</button>
+                <textarea id="message" name="message" rows="10" cols="60"></textarea><br><br>
+                <button type="submit" onclick="validateForm()">Submit</button>
                 </form>
             </section>
             <footer>
                 <img src="footer.png">
             </footer>
+            <script src='main.js'></script>
         </body>
     </main>
 </html>

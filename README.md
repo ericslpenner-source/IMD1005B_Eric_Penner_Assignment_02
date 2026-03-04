@@ -2,7 +2,7 @@ Eric Penner<br>
 041194774 <br>
 My client is a freelance photographer who takes jobs taking pictures of people, pets, and events/locations for commemoration or staging.<br>
 The site serves as an online portfolio to attract potential clients.<br>
-I did not make many major design changes from Assignment 1, as I felt that simplicity was still the best policy. I did change the feedback for the navbar buttons to color + underline instead of scaling, as it draws more visual interest to the buttons.<br>
+Based on the feedback from Assignment 2, I removed the 'main' tag, added a 'header' tag, added an h1 on the landing page/changed the h3 on the other pages to h1, and added alts on the images.<br>
 I did not use AI at any point in the process of creating this website.<br>
 IMAGE SOURCES:<br>
 Camera Logo https://pixabay.com/illustrations/instagram-logo-black-digital-1349676/ by Rifkie Pratama<br>

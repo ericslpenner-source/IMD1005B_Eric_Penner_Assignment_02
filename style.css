@@ -122,7 +122,7 @@ footer img{
 
 table{
     background-color:#DCD3CE;
-    padding:1%;
+    padding:1.5%;
     border-color:#1A0800;
     border-radius:10px;
     border-spacing:5px;
@@ -132,6 +132,25 @@ table{
 #contactFormSection{
     padding-top:2%;
     margin:2%;
+}
+
+#contactFormSection input, #contactFormSection textarea{
+    border:1.5px solid #1A0800;
+    background-color:#FFFAFA
+}
+
+#submitButton{
+    background-color:#1A0800;
+    color:#FAF5F5;
+    border:none;
+    padding:0.5%;
+    border-radius:5px;
+    transition:all ease 0.2s;
+}
+
+#submitButton:hover{
+    border-radius:10px;
+    padding:0.4%;
 }
 
 #photographer{

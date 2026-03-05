@@ -29,8 +29,9 @@
             <h1 class="topHeader">
                  Rates
             </h1>
-            <table>
-                <thead>
+            <table id="ratesTable">
+                <script src='ratesTable.js'></script>
+                <!-- <thead>
                     <tr>
                          <td>Service</td>
                          <td>Rate</td>
@@ -45,7 +46,7 @@
                         <td>Pets/portraits</td>
                         <td>$20/picture</td>
                     </tr>
-                </tbody>
+                </tbody> -->
             </table>
         </section>
         <section id="contactFormSection">
@@ -64,6 +65,11 @@
                 <button type="submit" onclick="validateForm()">Submit</button>
                 </form>
             </section>
+            <div class="centerContainer">
+                <button onclick="goToTop()" id="topButton" title="go to top">
+                    to top
+                </button>
+            </div>
             <footer>
                 <img src="footer.png">
             </footer>

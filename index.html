@@ -6,7 +6,7 @@
     <body>
         <section>
             <header>
-                <nav>
+                <nav id="mainNavbar">
                     <img src="instagram-1349676_1280.webp">
                     <a class="navLink" href="index.html">
                         Photography
@@ -14,24 +14,27 @@
                     <div id="emptyNav">
                         <!-- empty div to create space -->
                     </div>
-                    <div class="rightNav">
-                            <a class="navLink" id="story" href="our-story.html">
-                                Our Story
-                            </a>
+                    <div class="rightNav navAppear">
+                        <p id="hamburger">
+                            ☰
+                        </p>
                     </div>
-                    <div class="rightNav">
+                    <div id="storyDiv" class="rightNav navDisappear">
+                        <a class="navLink" id="story" href="our-story.html">
+                            Our Story
+                        </a>
+                    </div>
+                    <div id="contactDiv" class="rightNav navDisappear">
                         <a id="contact" href="contact.html">
-                                CONTACT & RATES
+                            CONTACT & RATES
                         </a>
                     </div>
                 </nav>
             </header>
         </section>
-        <div class="centerContainer">
-            <h1 class="topHeader">
+        <h1 class="topHeading">
                 Our Portfolios
-            </h1>
-        </div>
+        </h1>
         <section>
             <div class="gallery" id="gallery">
                 <a href="portfolio.html">

@@ -5,48 +5,37 @@
     </head>
     <body>
         <header>
-            <nav>
-                <img src="instagram-1349676_1280.webp">
-                <a class="navLink" href="index.html">
-                    Photography
-                </a>
-                <div id="emptyNav">
+            <nav id="mainNavbar">
+                    <img src="instagram-1349676_1280.webp">
+                    <a class="navLink" href="index.html">
+                        Photography
+                    </a>
+                    <div id="emptyNav">
                         <!-- empty div to create space -->
-                </div>
-                <div class="rightNav">
+                    </div>
+                    <div class="rightNav navAppear">
+                        <p id="hamburger">
+                            ☰
+                        </p>
+                    </div>
+                    <div id="storyDiv" class="rightNav navDisappear">
                         <a class="navLink" id="story" href="our-story.html">
                             Our Story
                         </a>
-                </div>
-                <div class="rightNav">
-                    <a id="contact" href="contact.html">
+                    </div>
+                    <div id="contactDiv" class="rightNav navDisappear">
+                        <a id="contact" href="contact.html">
                             CONTACT & RATES
-                    </a>
-                </div>
-            </nav>
+                        </a>
+                    </div>
+                </nav>
         </header>
         <section id="rates">
-            <h1 class="topHeader">
+            <h1>
                  Rates
             </h1>
             <table id="ratesTable">
                 <script src='ratesTable.js'></script>
-                <!-- <thead>
-                    <tr>
-                         <td>Service</td>
-                         <td>Rate</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Events</td>
-                        <td>$20/hr</td>
-                    </tr>
-                    <tr>
-                        <td>Pets/portraits</td>
-                        <td>$20/picture</td>
-                    </tr>
-                </tbody> -->
             </table>
         </section>
         <section id="contactFormSection">

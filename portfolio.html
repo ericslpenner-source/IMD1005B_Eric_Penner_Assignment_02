@@ -5,25 +5,30 @@
     </head>
     <body>
         <header>
-            <nav>
-                <img src="instagram-1349676_1280.webp">
-                <a class="navLink" href="index.html">
-                    Photography
-                </a>
-                <div id="emptyNav">
+            <nav id="mainNavbar">
+                    <img src="instagram-1349676_1280.webp">
+                    <a class="navLink" href="index.html">
+                        Photography
+                    </a>
+                    <div id="emptyNav">
                         <!-- empty div to create space -->
-                </div>
-                <div class="rightNav">
+                    </div>
+                    <div class="rightNav navAppear">
+                        <p id="hamburger">
+                            ☰
+                        </p>
+                    </div>
+                    <div id="storyDiv" class="rightNav navDisappear">
                         <a class="navLink" id="story" href="our-story.html">
                             Our Story
                         </a>
-                </div>
-                <div class="rightNav">
-                    <a id="contact" href="contact.html">
+                    </div>
+                    <div id="contactDiv" class="rightNav navDisappear">
+                        <a id="contact" href="contact.html">
                             CONTACT & RATES
-                    </a>
-                </div>
-            </nav>
+                        </a>
+                    </div>
+                </nav>
         </header>
         <div class="centerContainer">
             <button onclick="goToTop()" id="topButton" title="go to top">

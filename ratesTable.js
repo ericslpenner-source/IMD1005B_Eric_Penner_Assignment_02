@@ -1,5 +1,5 @@
 const ratesTitleRow = document.createElement("tr");
-const titles = ["Service", "Rate", "Unit"];
+const titles = ["Service", "Weekday", "Weekend"];
 const titleElements = [];
 for (let i = 0; i < titles.length; i++)
 {
@@ -8,12 +8,12 @@ for (let i = 0; i < titles.length; i++)
     ratesTitleRow.appendChild(titleElements[i]);
 }
 const services = [
-    {name:"Events", rate:"$20", unit:"/hr"},
-    {name:"Pets", rate:"$20", unit:"/photo"},
-    {name:"Portraits", rate:"$25", unit:"/photo"},
-    {name:"Home staging", rate:"$40", unit:"/hr"},
-    {name:"Land photography", rate:"$45", unit: "/hr"},
-    {name:"Exhibit", rate: "$50", unit: "/photo"}
+    {name:"Events", wDay:"$20/hr", wEnd:"$40/hr"},
+    {name:"Pets", wDay:"$20/photo", wEnd:"$25/photo"},
+    {name:"Portraits", wDay:"$25/photo", wEnd:"$30/photo"},
+    {name:"Home staging", wDay:"$40/hr", wEnd:"$50/hr"},
+    {name:"Land photography", wDay:"$45/hr", wEnd: "$60/hr"},
+    {name:"Exhibit", wDay: "$50/photo", wEnd: "$60/photo"}
 ];
 let ratesRows = [];
 let ratesRowElements = [];
@@ -27,8 +27,8 @@ for(let i = 0; i < services.length; i++)
         ratesRowElements[i][j] = document.createElement("td");
     }
     ratesRowElements[i][0].innerText = services[i].name;
-    ratesRowElements[i][1].innerText = services[i].rate;
-    ratesRowElements[i][2].innerText = services[i].unit;
+    ratesRowElements[i][1].innerText = services[i].wDay;
+    ratesRowElements[i][2].innerText = services[i].wEnd;
     for(let j = 0; j < titles.length; j++)
     {
         ratesRows[i].appendChild(ratesRowElements[i][j]);

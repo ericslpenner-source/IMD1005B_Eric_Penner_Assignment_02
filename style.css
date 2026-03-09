@@ -16,7 +16,7 @@ nav{
     padding-left:2%;
     padding-right:2%;
     align-items:center;
-    font-size:120%;
+    font-size:130%;
     font-weight:bold;
     position:fixed;
     top:0;
@@ -50,7 +50,7 @@ h1{
 }
 
 h1.topHeading{
-    padding-top:40px;
+    padding-top: 7%;
 }
 
 div.gallery{
@@ -73,8 +73,7 @@ div.gallery{
 }
 
 #gallery img:hover{
-    width:110%;
-    height:100%;
+    transform:scale(1.1);
     filter:brightness(100%);
 }
 
@@ -85,15 +84,20 @@ p.loremipsum{
 #contact{
     background-color:#1A0800;
     color:#FAF5F5;
-    padding:5%;
+    padding:6%;
     border-radius:10px;
     text-decoration:none;
     margin:auto;
     transition:all ease 0.3s;
+    white-space: nowrap;
 }
 
 #contact:hover{
     background-color: #1A4840;
+}
+
+#faqHeading{
+    margin-left:2%;
 }
 
 footer{
@@ -191,7 +195,34 @@ table{
     z-index:99;
 }
 
-/* @media (max-width:768px)
-{
-    background-color:blue;
-} */
+.accordion{
+    margin:2%;
+}
+
+.accordion p{
+    background-color:#2f180e;
+    color:#FAF5F5;
+    padding:2%;
+}
+
+.navAppear{
+    display:none;
+    padding-right:2%;
+}
+
+@media(max-width:768px){
+    .navDisappear{
+        display:none;
+    }
+    .navAppear{
+        display:contents;
+    }
+    .flexVert{
+        display:flex;
+        flex-direction:column;
+    }
+    .flexVert *{
+        margin:1%;
+    }
+}
+

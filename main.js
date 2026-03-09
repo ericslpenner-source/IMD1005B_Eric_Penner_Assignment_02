@@ -38,3 +38,25 @@ function validateForm(){
         return false;
     }
 }
+
+let hamburger = document.getElementById("hamburger");
+let hamburgerActive = 0;
+hamburger.addEventListener("click", hamburgerToggle);
+let contactDiv = document.getElementById("contactDiv");
+let storyDiv = document.getElementById("storyDiv");
+let navbar = document.getElementById("mainNavbar");
+function hamburgerToggle(){
+    if (hamburgerActive == 0){
+        contactDiv.classList.replace("navDisappear", "navAppear");
+        storyDiv.classList.replace("navDisappear", "navAppear");
+        navbar.classList.add("flexVert");
+        hamburgerActive = 1;
+    }
+    else{
+        contactDiv.classList.replace("navAppear", "navDisappear");
+        storyDiv.classList.replace("navAppear", "navDisappear");
+        navbar.classList.remove("flexVert");
+        hamburgerActive = 0;
+    }
+    console.log(hamburgerActive);
+}

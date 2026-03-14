@@ -77,6 +77,18 @@ div.gallery{
     filter:brightness(100%);
 }
 
+#portfolioGallery{
+    padding-top:100px;
+    padding-left:4%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#portfolioGallery img{
+    width: 600px;
+    margin: 2%;
+}
+
 p.loremipsum{
     font-size:1000%;
 }

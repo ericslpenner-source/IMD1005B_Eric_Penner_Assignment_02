@@ -11,6 +11,7 @@ function getImages(){
         })
         .then((data) =>{
         portfolioImages[i].src = data.message;
+        porfolioImages[i].alt = "Image of a dog."
         })
         portfolioGallery.appendChild(portfolioImages[i]);
     }

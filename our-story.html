@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-    <main>
-         <head>
-            <link rel="stylesheet" href="style.css" />
-        </head>
-        <body>
-            <nav>
-                <img src="instagram-1349676_1280.webp">
-                <a class="navLink" href="index.html">
-                    Photography
-                </a>
-                <div id="emptyNav">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav id="mainNavbar">
+                    <img src="instagram-1349676_1280.webp">
+                    <a class="navLink" href="index.html">
+                        Photography
+                    </a>
+                    <div id="emptyNav">
                         <!-- empty div to create space -->
-                </div>
-                <div class="rightNav">
+                    </div>
+                    <div class="rightNav navAppear">
+                        <p id="hamburger">
+                            ☰
+                        </p>
+                    </div>
+                    <div id="storyDiv" class="rightNav navDisappear">
                         <a class="navLink" id="story" href="our-story.html">
                             Our Story
                         </a>
-                </div>
-                <div class="rightNav">
-                    <a id="contact" href="contact.html">
+                    </div>
+                    <div id="contactDiv" class="rightNav navDisappear">
+                        <a id="contact" href="contact.html">
                             CONTACT & RATES
-                    </a>
-                </div>
+                        </a>
+                    </div>
             </nav>
-            <section>
-                <img id="photographer" src="bruceemmerling-camera-5149838_1280.jpg">
-            </section>
-            <section id="aboutUs">
-            <h3>
-                    About us!
-            </h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </section>
-            <footer>
-                <img src="footer.png">
-            </footer>
-        </body>
-    </main>
+        </header>
+        <section>
+            <img id="photographer" src="bruceemmerling-camera-5149838_1280.jpg" alt="Image of the photographer">
+        </section>
+        <section id="aboutUs">
+        <h1>
+             About us!
+        </h1>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </section>
+        <h1 id="faqHeading">
+            FAQ
+        </h1>
+        <section id="accordion" class="accordion">
+            <details>
+                <summary>How far in advance do I need to book?</summary>
+                <p>You must book at least 20 days in advance.</p>
+            </details>
+            <details>
+                <summary>Are you willing to travel for events?</summary>
+                <p>I will travel anywhere within 2 hours of Ottawa.</p>
+            </details>
+            <details>
+                <summary>Are there any conditions for your employment?</summary>
+                <p>A full list of my general rules and policies can be found here: fake link<br>Further conditions may be negotiated before hiring.</p>
+            </details>
+            <details>
+                <summary>Are you cool?</summary>
+                <p>I think so!</p>
+            </details>
+        </section>
+        <div class="centerContainer">
+            <button onclick="goToTop()" id="topButton" title="go to top">
+                to top
+            </button>
+        </div>
+        <footer>
+            <img src="footer.png">
+        </footer>
+        <script src='main.js'></script>
+        <script src='accordion.js'></script>
+    </body>
 </html>

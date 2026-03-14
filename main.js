@@ -1,6 +1,3 @@
-fetch("https://dog.ceo/api/breeds/image/random");
-console.log("hi");
-
 let topButton = document.getElementById("topButton");
 window.onscroll = function() {scrollFunction()};
 

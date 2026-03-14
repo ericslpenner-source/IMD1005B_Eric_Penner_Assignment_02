@@ -85,7 +85,7 @@ div.gallery{
 }
 
 #portfolioGallery img{
-    width: 600px;
+    width: 45%;
     margin: 2%;
 }
 
@@ -195,7 +195,6 @@ table{
     border:none;
     border-radius:20px;
     padding:0.8%;
-    display:flex;
     font-size:120%;
     transition:all ease 0.2s;
 }
